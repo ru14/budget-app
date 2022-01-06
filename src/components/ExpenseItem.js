@@ -1,11 +1,11 @@
 import './ExpenseItem.css';
 function ExpenseItem() {
     return (
-    <div>
+    <div className='expense-item'>
         <div>Date</div>
-        <div>
+        <div className='expense-item__description'>
             <h2>title</h2>
-            <div>Amount</div>
+            <div className='expense-item__price'>Amount</div>
         </div>
     </div>
     );
