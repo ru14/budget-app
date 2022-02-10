@@ -31,8 +31,8 @@ const Expenses = (props) => {
               <ExpensesList items={filteredExpenses}/>
             </Card>
         </div>
-    )
-}
+    );
+};
 
 
 export default Expenses;
