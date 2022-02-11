@@ -8,12 +8,12 @@ const ExpensesList = (props) => {
   }
   return (
     <ul className='expenses-list'>
-      {props.items.map((expense) => (
+      {props.items.map((item) => (
         <ExpenseItem
-          key={expense.id}
-          title={expense.title}
-          amount={expense.amount}
-          date={expense.date}
+          key={item.id}
+          title={item.title}
+          amount={item.amount}
+          date={item.date}
         />
       ))}
     </ul>
